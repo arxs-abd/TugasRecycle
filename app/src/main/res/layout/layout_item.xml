@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/rl_items">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv_animalPhoto"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_animalName"
+        android:text="Animal Name"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/iv_animalPhoto"
+        android:layout_marginLeft="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_animalDetail"
+        android:text="Animal Details"
+        android:layout_toRightOf="@+id/iv_animalPhoto"
+        android:layout_below="@+id/tv_animalName"
+        android:layout_marginLeft="12dp"/>
+</RelativeLayout>
